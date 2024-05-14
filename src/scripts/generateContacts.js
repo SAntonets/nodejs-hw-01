@@ -17,7 +17,7 @@ const generateContacts = async (number) => {
 
         console.log(`Successfully generated and added ${number} contacts`);
     } catch (error) {
-        console.log(error);
+        console.log(error, 'Failed to generate contacts');
     }
 };
 
